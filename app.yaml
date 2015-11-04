@@ -1,0 +1,8 @@
+application: online-tools-for-se
+version: 20151104
+runtime: php55
+api_version: 1
+
+handlers:
+- url: /.*
+  script: helloworld.php
